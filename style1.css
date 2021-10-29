@@ -66,9 +66,24 @@
  height: 484px;
  
  background: navy url(Images/p8.jpg) repeat-y right;
+ color: navy;
  
  }
 
+ #abc1 ul li a{
+     color: #bed8f3;
+     font-size: 13px;
+ }
+
+ #abc1 a:hover{
+     columns: white;
+ }
+ #abc1 .active{
+    color: rgb(238, 163, 163);
+ }
+ #abc1 hr{
+     color: #bed8f3;
+ }
  #abc1, #abc2, #header {
 
  position: absolute;
